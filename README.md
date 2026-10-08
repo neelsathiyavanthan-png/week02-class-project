@@ -25,11 +25,11 @@ Input: 12 0   Output: Invalid input
 - Only works in volts and ohms.
 
 ## Debugging reflection
-[2 to 3 sentences on what went wrong and how you fixed it, e.g. running
-commands in PowerShell instead of Ubuntu, git not knowing your name, the
-token login, or the missing main branch.]
-
+My first commands failed because I was in PowerShell instead of the Ubuntu
+terminal, so g++ and nano were not found. My first commit was refused until
+I set my name and email with git config, and my first push failed until I
+used a personal access token instead of my password. The repo also had no
+main branch because it started empty, so I pushed my feature branch to
+GitHub as main before opening the pull request.
 ## AI-use disclosure
-[One sentence on how you used AI, e.g. "I used Claude to walk me through
-the steps and explain errors; I typed the commands myself."]
-
+I used Claude to walk me through the steps, explain errors, and I typed the commands myself
